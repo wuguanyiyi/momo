@@ -1,0 +1,1047 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 39px;
+    background-color: #ececec;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_box1{
+    width: 30%;
+    height: 39px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_box2{
+    width: 33%;
+    height: 39px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home{
+    background-image: url("./momo_img/home.png");
+    background-size: 100% 100%;
+    width: 16px;
+    height: 15px;
+}
+
+.header_box2 button{
+    width: 42px;
+    height: 19px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(144, 143, 143);
+    border-radius: 3px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/*service*/
+.service_box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    
+}
+.service_img{
+    background-image: url("./momo_img/service.png");
+    background-size: 100% 100%;
+    width: 80%;
+    height: 80%;
+}
+/*shopcart*/
+.shopcart_box{
+    width: 80px;
+    height: 250px;
+    position: absolute;
+    right: 8px;
+    top: 205px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.shopcart_img1{
+    background-image: url("./momo_img/shopcart.png");
+    background-size: 100% 100%;
+    width: 70px;
+    height: 75px;
+}
+.shopcart_img2{
+    background-image: url("./momo_img/coin.png");
+    background-size: 100% 100%;
+    width: 60px;
+    height: 60px;
+}
+.shop_top_box{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+}
+.shop_top{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);/*正三角形*/
+    background-color: #9c9e9c;
+    width: 5px;
+    height: 5px;
+}
+.shop_top_word{
+    border-color: #9c9e9c;
+    border-width: 1px;
+    border-top-style: solid;
+    font-size: 2px; /*!!!!!!!!!!!!!*/
+    color: #9c9e9c;
+}
+/*title*/
+.title_box{ /**/
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.logo_box{
+    width: 30%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    background-image: url("./momo_img/bt_0_243_01_e2.gif");
+    background-size: 100% 100%;
+    width: 230px;
+    height: 100px;
+}
+.search_big_box{
+    width: 35%;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    gap:4px;
+}
+.search_box{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+   
+}
+.search_word_box{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.search_word{
+    width: 85%;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.search_word h3{
+    font-size: 12px;
+    margin: 0;
+    font-weight:normal;
+    color: #d62872;
+}
+
+.search_img{
+    width: 85%;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #515151;
+    justify-content: space-between;
+    display: flex;
+}
+.search_img_text{
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+    width: 50%;
+    
+}
+.search_img_shalf{
+    width: 60px;
+    height: 30px;
+    background-color: #515151;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-width: 1px;
+    font-size: 14px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.rob_coin_box{
+    width: 30%;
+    height: 100px;
+
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+.rob_coin{
+    background-image: url("./momo_img/rob_coin.png");
+    background-size: 100% 100%;
+    width: 310px;
+    height: 90px;
+}
+/*classification_box*/
+.sort_big_box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.sort_box{
+    width: 35%;
+    height: 50px;
+    align-items: flex-end;
+    display: flex;
+}
+.sort{
+    width: 38%;
+    height: 35px;
+    background-color:#515151;
+}
+
+.clumn3_img{
+    background-image: url("./momo_img/clumn3.png");
+    background-size: 100% 100%;
+    width: 200px;
+    height: 35px;
+}
+
+.g_sort_box{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.g_bigbox{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap:1px;
+}
+.g_box1{
+    width: 62px;
+    height: 33px;
+    background-image: url("./momo_img/g1.png");
+    background-size: 100% 100%;
+}
+.g_box2{
+    width: 62px;
+    height: 33px;
+    background-image: url("./momo_img/g2.png");
+    background-size: 100% 100%;
+}
+.g_box3{
+    width: 70px;
+    height: 33px;
+    background-image: url("./momo_img/g3.png");
+    background-size: 100% 100%;
+}
+.g_box4{
+    width: 70px;
+    height: 33px;
+    background-image: url("./momo_img/g4.png");
+    background-size: 100% 100%;
+}
+.g_box5{
+    width: 62px;
+    height: 33px;
+    background-image: url("./momo_img/g5.png");
+    background-size: 100% 100%;
+}
+.g_box6{
+    width: 70px;
+    height: 33px;
+    background-image: url("./momo_img/g6.png");
+    background-size: 100% 100%;
+}
+.g_box7{
+    width: 70px;
+    height: 33px;
+    background-image: url("./momo_img/g7.png");
+    background-size: 100% 100%;
+}
+.g_box8{
+    width: 70px;
+    height: 33px;
+    background-image: url("./momo_img/g8.png");
+    background-size: 100% 100%;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!11*/
+.carousel_bigbox{
+    width: 100%;
+    height: 350px;
+    background-color: aliceblue;
+    justify-content: center;
+    display: flex;
+}
+.carousel_box{
+    width: 85%;
+    height: 350px;
+    background-color:#eeb9b9;
+}
+.sort_l_box{
+    width: 200px;
+    height: 500px;
+    background-color:#515151;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.word_box{
+    width: 85%;
+    height: 80px;
+    font-size: 13px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-color: rgba(255,255,255,0.1);
+    border-width: 1px;
+}.spike_bigbox{
+    width: 180px;
+    height: 318px;
+    border-radius: 5px;
+    position: absolute;
+    right: 100px;
+    top: 238px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    
+}
+.spike_top_box{
+    width: 180px;
+    height: 30px;
+    background-color: #ececec;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    justify-content: end;
+    
+}
+.spike_word{
+    width: 63%;
+    height: 30px;
+    border-top-left-radius: 5px;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+.num_bigbox{
+    width: 35%;
+    height: 30px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.num_box1{
+    width: 22%;
+    height: 46%;
+    background-color: #d62872;
+    text-align: center;
+    font-size: 13px;
+}
+.num_box{
+    width: 22%;
+    height: 46%;
+    background-color: #bbbbbb;
+    text-align: center;
+    font-size: 13px;
+}
+.spike_botton_box{
+    width: 170px;
+    height: 288px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.spike_img1{
+    background-image: url("./momo_img/spike1.jpg");
+    background-size: 100% 100%;
+    width: 170px;
+    height: 80px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+}
+.spike_img2{
+    background-image: url("./momo_img/spike2.jpg");
+    background-size: 100% 100%;
+    width: 170px;
+    height: 80px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+}
+.spike_img3{
+    background-image: url("./momo_img/spike3.jpg");
+    background-size: 100% 100%;
+    width: 170px;
+    height: 80px;
+}
+/**/
+.bank_bigbox{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bank_box{
+    width: 76%;
+    height: 120px;
+    display: flex;
+    gap:5px;
+}
+.bank_img{
+    width:400px;
+    height:120px;
+    background-image: url("./momo_img/bank.jpg");
+    background-size: 100% 100%;
+}
+.tvshop_bigbox{
+    width: 456px;
+    height: 120px;
+    display: flex;
+    gap:10px
+}
+.tvshop_box{
+    width: 50%;
+    height: 120px;
+}
+.tv_title{
+    width: 100%;
+    height: 30px;
+    background-color: #b6b6b6;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+.tv_title_img{
+    width: 25px;
+    height: 25px;
+}
+.tv_title h2{
+    font-size: 17px;
+    margin: 0;
+    color: #fff;
+}
+.tv_word_box{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: #ececec;
+}
+.tv_img_box1{
+    width: 50%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv_img1{
+    width: 90%;
+    height: 70%;
+    background-image: url("/momo_img/tvshop3.png");
+    background-size: 100% 100%;
+}
+.tv_word1{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90px;
+    font-size: 14px;
+    color: #666666;
+}
+.tv_img_box2{
+    width: 35%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv_img2{
+    width: 80%;
+    height: 70%;
+    background-image: url("./momo_img/tvshop4.png");
+    background-size: 100% 100%;
+}
+.tv_word2{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 90px;
+    font-size: 14px;
+}
+.w1{
+    width: 60px;
+    border-style: solid;
+    border-color: #d62872;
+    border-width: 1px;
+    font-size: 13px;
+    color: #d62872;
+}
+.w2{
+    color: #666666;
+    font-size: 13px;
+}
+.w3{
+    font-size: 23px;
+    color: #d62872;
+}
+/**/
+.women_bigbox{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women_box{
+    width: 85%;
+    height: 340px;
+    display: flex;
+    
+}
+.women_lbox{
+    width: 35%;
+    height: 340px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.women_cbox{
+    width: 27%;
+    height: 340px;
+}
+.women_rbox{
+    width: 38%;
+    height: 340px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.women_img1{
+    width: 50%;
+    height: 170px;
+    background-image: url("./momo_img/Women\'s_Day1.jpg");
+    background-size: 100% 100%;
+}
+.women_img2{
+    width: 50%;
+    height: 170px;
+    background-image: url("./momo_img/Women\'s_Day2.jpg");
+    background-size: 100% 100%;
+}
+.women_img3{
+    width: 50%;
+    height: 170px;
+    background-image: url("./momo_img/Women\'s_Day3.jpg");
+    background-size: 100% 100%;
+}
+.women_img4{
+    width: 50%;
+    height: 170px;
+    background-image: url("./momo_img/Women\'s_Day4.jpg");
+    background-size: 100% 100%;
+}
+.women_img5{
+    width: 100%;
+    height: 72px;
+    background-image: url("./momo_img/Women\'s_Day5.jpg");
+    background-size: 100% 100%;
+}
+.women_img6{
+    width: 100%;
+    height: 226px;
+    background-image: url("./momo_img/Women\'s_Day6.jpg");
+    background-size: 100% 100%;
+}
+.women_img7{
+    width: 100%;
+    height: 58px;
+    background-image: url("./momo_img/Women\'s_Day7.jpg");
+    background-size: 100% 100%;
+}
+
+.women_img8{
+    width: 50%;
+    height: 170px;
+    background-image: url("./momo_img/Women\'s_Day8.jpg");
+    background-size: 100% 100%;
+}
+.women_img9{
+    width: 50%;
+    height: 170px;
+    background-image: url("./momo_img/Women\'s_Day9.gif");
+    background-size: 100% 100%;
+}
+.women_img10{
+    width: 50%;
+    height: 170px;
+    background-image: url("./momo_img/Women\'s_Day10.jpg");
+    background-size: 100% 100%;
+}
+.women_img11{
+    width: 50%;
+    height: 170px;
+    background-image: url("./momo_img/Women\'s_Day11.jpg");
+    background-size: 100% 100%;
+}
+/**/
+.wire_box{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wire_img1{
+    background-image: url("./momo_img/wire1.jpg");
+    background-size: 100% 100%;
+    width: 265px;
+    height: 60px;
+}
+.wire_img2{
+    background-image: url("./momo_img/wire2.jpg");
+    background-size: 100% 100%;
+    width: 272px;
+    height: 60px;
+}
+.wire_img3{
+    background-image: url("./momo_img/wire3.jpg");
+    background-size: 100% 100%;
+    width: 272px;
+    height: 60px;
+}
+.wire_img4{
+    background-image: url("./momo_img/wire4.jpg");
+    background-size: 100% 100%;
+    width: 265px;
+    height: 60px;
+}
+/**/
+.chosen_bigbox{
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.chosen_box{
+    width: 95%;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.chosen_img1{
+    background-image: url("./momo_img/chosen1.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img2{
+    background-image: url("./momo_img/chosen2.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img3{
+    background-image: url("./momo_img/chosen3.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img4{
+    background-image: url("./momo_img/chosen4.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img5{
+    background-image: url("./momo_img/chosen5.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img6{
+    background-image: url("./momo_img/chosen6.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img7{
+    background-image: url("./momo_img/chosen7.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img8{
+    background-image: url("./momo_img/chosen8.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img9{
+    background-image: url("./momo_img/chosen9.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img10{
+    background-image: url("./momo_img/chosen10.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img11{
+    background-image: url("./momo_img/chosen11.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+.chosen_img12{
+    background-image: url("./momo_img/chosen12.jpg");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 110px;
+}
+/*reciprocal*/
+.reciprocal_bigbox{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.reciprocal_box1{
+    width: 42%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.reciprocal_box2{
+    width: 55%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.limited_time_box{
+    width: 93%;
+    height: 590px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.time_title_box{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 210, 46);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:5px;
+}
+.lightning_img{
+    background-image: url("./momo_img/lightning.png");
+    background-size: 100% 100%;
+    width: 30px;
+    height: 38px;
+}
+.time_title_box h2{
+    font-size: 18px;
+}
+.time_title_box h3{
+    font-size: 15px;
+}
+.time_word{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap:7px;
+    border-top-right-radius: 10px;
+}
+.time_black_box{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.time_white_box{
+    width: 60px;
+    height: 24px;
+    color: #FF6C00;
+    background-color: #fff;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.time_orange_box{
+    width: 60px;
+    height: 24px;
+    color: #fff;
+    background-color: #FF4900;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.time_img_bigbox{
+    width: 95%;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:4px;
+    justify-content: center;
+    align-items: center;
+}
+.time_img_box{
+    width: 140px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:2px;
+}
+.time_img1{
+    background-image: url("./momo_img/time1.jpg");
+    background-size: 100% 100%;
+    width: 130px;
+    height: 130px;
+}
+.time_text{
+    font-size: 13px;
+    text-align: center;
+}
+.price_border{
+    border-style: solid;
+    border-color: #d62872;
+    font-size: 14px;
+    margin-right: 10px;
+    border-width: 1px;
+}
+.time_price{
+    text-align: center;
+    font-size: 20px;
+    color: #d62872;
+}
+.time_img2{
+    background-image: url("./momo_img/time3.jpg");
+    background-size: 100% 100%;
+    width: 130px;
+    height: 130px;
+}
+.time_img3{
+    background-image: url("./momo_img/time2.jpg");
+    background-size: 100% 100%;
+    width: 130px;
+    height: 130px;
+}
+.time_img4{
+    background-image: url("./momo_img/time4.jpg");
+    background-size: 100% 100%;
+    width: 130px;
+    height: 130px;
+}
+.time_img5{
+    background-image: url("./momo_img/time5.jpg");
+    background-size: 100% 100%;
+    width: 130px;
+    height: 130px;
+}
+.time_img6{
+    background-image: url("./momo_img/time6.jpg");
+    background-size: 100% 100%;
+    width: 130px;
+    height: 130px;
+}
+/*24h*/
+.bom24h_bigbox{
+    width: 97%;
+    height: 410px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bom24h_title_box{
+    width: 100%;
+    height: 60px;
+    background-color: #d62872;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:10px;
+}
+.bom24h_img{
+    background-image: url("./momo_img/clock.png");
+    background-size: 100% 100%;
+    width: 32px;
+    height: 32px;
+}
+.bom24h_word{
+    width: 515px;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:7px;
+    border-top-right-radius: 10px;
+    margin-left: 3%;
+}
+.bom24h_title_box h2{
+    font-size: 19px;
+}
+.bom24h_title_box h3{
+    font-size: 15px;
+}
+.bom24h_black_box{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.bom24h_img_bigbox{
+    width: 100%;
+    height: 500px;
+    background-color: #ffe5f0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bom_img_box1{
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    width: 99%;
+    height: 47%;
+   
+    gap:10px;
+}
+.bom_img_box2{
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    width: 99%;
+    height: 47%;
+    gap:10px;
+}
+.bom_img1{
+    background-image: url("./momo_img/bom1.jpg");
+    background-size: 100% 100%;
+    width: 45%;
+    height: 140px;
+    border-radius: 5px;
+}
+.bom_img2{
+    background-image: url("./momo_img/bom2.jpg");
+    background-size: 100% 100%;
+    width: 45%;
+    height: 140px;
+    border-radius: 5px;
+}
+.bom_img3{
+    background-image: url("./momo_img/bom3.jpg");
+    background-size: 100% 100%;
+    width: 45%;
+    height: 140px;
+    border-radius: 5px;
+}
+.bom_img4{
+    background-image: url("./momo_img/bom4.jpg");
+    background-size: 100% 100%;
+    width: 45%;
+    height: 140px;
+    border-radius: 5px;
+}
+
+/*fever*/
+.fever_bigbox{
+    width: 97%;
+    height: 175px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.fever_img{
+    background-image: url("./momo_img/fever1.png");
+    background-size: 100% 100%;
+    width: 700px;
+    height: 165px;
+    border-radius: 10px;
+}
